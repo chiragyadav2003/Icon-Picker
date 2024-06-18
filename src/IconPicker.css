@@ -1,0 +1,81 @@
+/* src/IconPicker.css */
+.icon-picker-wrapper {
+  position: relative;
+}
+
+.selected-icon {
+  transition: all 0.3s ease;
+}
+
+.selected-icon:hover {
+  border-color: #007bff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.icon-picker-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon-picker-header button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.icon-picker-header button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.icon-picker-header button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.icon-grid {
+  width: 100%;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.icon-container:hover {
+  background-color: #f0f0f0;
+}
+
+.icon-picker-footer {
+  margin-top: 10px;
+}
+
+.icon-picker-footer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.icon-picker-footer button:hover {
+  background-color: #0056b3;
+}
