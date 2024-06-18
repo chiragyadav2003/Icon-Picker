@@ -1224,6 +1224,11 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
+feather-icons-react@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/feather-icons-react/-/feather-icons-react-0.7.0.tgz#4c31f3180ff739b5cc06cab5c73c3db883279246"
+  integrity sha512-IAHpKhrpxag3gKWcZYC7zmewfjMQLI34tmrpH3+52mvC61Q4FRBjJXl1WmPyKefGnk3sbS0wiqWDD3QIHiJBaA==
+
 feather-icons@^4.29.2:
   version "4.29.2"
   resolved "https://registry.yarnpkg.com/feather-icons/-/feather-icons-4.29.2.tgz#b03a47588a1c400f215e884504db1c18860d89f8"
